@@ -1,0 +1,79 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media screen and (max-width: 767px) {
+            form {
+                max-width: 90%;
+                margin: 0 auto;
+            }
+            
+            
+            input[type="text"],
+            input[type="number"],
+            input[type="submit"] {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+}
+#carId{
+    margin: 15px 0px 15px 0px;
+    padding: 5px 50px 5px 60px;
+    align-content: center;
+    background-color: rgb(0, 132, 255);
+    color: antiquewhite;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+
+}
+#carId:hover{
+    background-color: rgba(0, 132, 255,0.99);
+}
+p{
+    margin: 50px 0px 50px 20px;
+}
+input{
+    padding: 7px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(75, 73, 73);
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid white;
+
+}
+
+th,td{
+    text-align: left;
+    padding: 5px;
+}
+th{
+    font-weight: bold;
+}
+
+button{
+    border-radius: 4px;
+    color: antiquewhite;
+    border: 1px solid white;
+    outline: none;
+    padding: 7px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+button:hover{
+    opacity: 0.5;
+}
+.del{
+    background-color: red;
+}
+.edit{
+    background-color: green;
+}
